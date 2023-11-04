@@ -1,0 +1,14 @@
+                            JS
+STACK AND HEAP METHOD - MEMORY
+
+stack - primitve
+    -you get a copy of your data when you ask for it
+    -stacked on top of one another 
+
+heap - non.primitive
+    -you get a refrence instead
+    -chnaeges will take place in orginal data
+
+
+
+
