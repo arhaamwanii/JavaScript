@@ -21,13 +21,21 @@
     //     console.log(user.upi);
     //     console.log(user2.upi);
 
-//things inside a class can be accesed via the dotnotaition
+// things inside a class can be accesed via the dotnotaition
 
 //we can also specify we the data type of an input in js
 
- const score = 400;
- 
- console.log(score)
+
+
+// OBJECT LITERALS
+
+// const me = {
+//     name: "arham",
+//     Abe: 18,
+//     inLoggedToday: false
+// }
+
+// console.log(me.inLoggedToday)
 
  
 

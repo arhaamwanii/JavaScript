@@ -31,5 +31,30 @@ heap - non.primitive
 -thats why we use a constructor and object factories to create the copies of the object
 
 
+OBJECTS
 
 
+-Singleton,
+     object is made by constructors not by object literals
+
+-OBJECT LITERALS
+
+
+
+ SCOPES
+
+VALUE 
+
+-{ } , with function, if else....
+-every curly bases marks the begining of a new scope which has its own Scope
+-NESTED SCOPES 
+
+VAR PROBLIMS
+    -it is function scoped i.e if it is declared inside a block inside a function it wont be spcific to that block it will be could be accesed in the whole function
+        -BLOK.SCOPE == {} , start of {} marks the start of the new block
+            - it gives us the option of limiting visibility
+    -if we declare a variable in line 20, it will be accessable in line 10 as well... which will create huge problims in  a large code base
+
+EVENTS
+
+-
