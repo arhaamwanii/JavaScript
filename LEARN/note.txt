@@ -1,4 +1,418 @@
-                            JS
+
+                                                            JAVA-SCRIPT
+-java script is a interpeted languge
+
+-alert("message")
+    -alert here is the function   (behavior)
+    -";" denotes the end of the fontion - statement terminator
+    -A piece of text is mainy representes by -double quotation "" - STRING
+        -this is very nnecessary and this is what differnentate the text from the code 
+
+-DATA TYPE 
+    -STRING = text
+    -NUEBER = number
+    -BOOLEYAN = yes no 
+
+-VARIABLES
+    -remember stuff
+
+    - var myName = "arham" ;
+        -var  - KEYWORD
+        -my name - name of the VARIABLE
+        -arham - value in it
+
+    - var -- means you can vary the data which is insdie the variable
+
+    - "a = b" , asigns the value  of b to a 
+    in this code what happens is that value of "b" is assigned to "a" 
+    i,e a has been given the value of b
+    i.e a is b " to remember this, = can be thought of as is
+    basically "a is b"
+
+VARIABLE -- CONVENTIIONS
+    - try to give it meaning full name
+    -var cant begin with number
+    -cant contain spaces
+
+    -js uses camel casing in its synatax
+    
+STRINGS
+    -primitie data type
+    -"a" + "b" it becomes "ab"
+    -length calculation = variable.length
+    
+    -if you want to do some calculation or something dont do it in the function make a seperate variable where you can do that then out in the variable
+    
+    -command / will turn the code in to a comment
+
+    -SLICiNG STRING - "variable.slice(from(0),to(1))" -- this will slice the first charecter of the string not including the second one
+
+    -CHANGING THE CHARECTERS
+    -"variable.toUppecase()"
+
+Calculation in Js are pretty Straight Forward
+    -everything basically function the same as before except for mudulo
+
+    -In MODULO(%) - the sign is %
+    -it function is that it allows us to see the remainder once a calculation is done
+    -it can be used to determine weather the number is even or is it odd
+
+
+    -try to make the bodmass rules obvious
+
+INCREMENT AND DECREMENT - operators in js
+    -"X++" increament in the value of x by one
+    -increment expression 
+    -"x--" dicreses values by one 
+    -dicrement expression 
+
+    -"x+=3" this means that you are adding x by the value of 3
+
+
+CREATING AND CALLING FUNCTION
+    -robot, given instructions in code
+    -packet of code with a name
+    -variable for code
+    -seperation of logic
+    -can change the parameter
+    -basically it is a black box which takes an input and gives an output accordingly
+     
+
+    -PARAMETERS - they act as local variables 
+
+    function name(){
+        code 
+        code
+    }
+
+    calling a function - "
+        
+        name();"
+
+FUNCTIONS ARE OF THREE TYPES 
+    -Simple Function 
+    -INPUT IN FUNCTION, this input is then going to be used in the considere
+        basically you create a varible in the biging of the function and use it in the code then when you call the function you determine the value of this variable
+    -Function also gives output
+        "return",
+        - if you want the function to return some value, and you want to use it outside you can return it out of the function 
+        -once the value is out there you need to store it in a variable or something to make it applicabel outside the function as well
+        -once you call a function - "name(a,b)" you are actually calling for the function to do whatever it has inside of it once that is dome, you may need to return  the value of that thats when the value of return is used
+        -a & b are the values which are assigned to the local variables inside the function(value of parameters)
+        - it is necessary to store the value of the item in a container outside to make  a use of it
+        
+-Math
+    -M is capitalized
+    -Math.random = generates a random number between 0 and 1 -- floating number i.e in deciamls
+
+ IF ELSE CONDITONAL --- logic  
+    -control the flow
+    -IF -> {}it is the main condiitiom 
+    -ELSE -> it the the secondary  code which will be executed if the condition fo if not correct
+        -else should be the last thing to go for- everything rest leaving what you put in if and else if
+COMPRATIVES IN Js
+    -compare values
+    - "===" to check wheter left hand side to right han d SIDE
+        - in case of "==" it checks for equality but it dosent check for dosent check for equality of data type 
+        -strict equator vs equalor
+
+    -"!==" to check if it is  not Equal
+    -">" check greter than
+    -">=" greater than or equal 
+
+
+    - if you want to check if x is equal to 11 or 13, it should come before checking if x is greater than 12 or less than 12
+
+COMBINING COMPIRATORS
+    -   AND (&&) and OR (||)
+
+ARRAYS 
+    -it is a collection of like or unlike Data types
+    -[COLLECTION OF DATA]
+
+    -var Eggs = eggs[1];
+
+    -accessing a array => Eggs[2]
+
+    -Eggs.length
+
+    -square braces [] - access and create desk
+
+    -PUSH
+    -it can be used to push  a item at the end of an array
+
+    -POP
+    it is used to pop the items in the array - at the end
+
+LOOPS 
+    -while(something is true), this means that while this statement is true do something
+    -for
+
+ADDING JS 
+    -Inline atribute "on load" - put inside the double quotations- (we can then incorpirate the strings of js in single quotations ) - dont use it
+    - SCRIPT TAG - its location metters a lot because as go in sequence if it comes before something which is later on in the it wont work and will throw in an error
+        -it is consisdered good practise to put it at the end as it also takes compiratively more time to load upper
+    -"js files
+
+
+DOCOUNENT OBJECT MODEL(DOM)
+
+    - it is used to manuplate html using JavaScript
+    -catalogs the website into individual objects which can be selected 
+    -inner Html
+
+    -we can modify the code, by first creating a varible for the locationof the element we want to afect with javascript;
+
+    -OBJECTS INSIDE THE DOM CAN HAVE    
+        -PROPERTIES = define somethinf aboout the project
+            -
+
+        -METHODS = things an object can do
+            -
+
+
+    GETTER      (car.COLOR) 
+    -used to get a property of a object
+
+    SETTER       (car.numberofDoor = 0 ;)
+    -just a difference of = between setter and getter
+    - it is used to edit stuff
+    -
+
+    CALLING A METHODS
+    -car.drive();
+    -only difference between a method and an obeect is that method is something applicable to objects
+    -it is basically function for an object
+    -we know something we do something
+
+    -Methods are essentially FUNCTIONS 
+    -BUTTON
+    -properties - inner html, style , first child
+    -methods - click(), append Child(), setattribute().
+
+    all of this can be accessed using the dot notation
+
+    
+    SELECTING HTML ELEMENTS WITH JS
+
+    -document.getElementByTagName("li)
+        -this will select all the lits items
+        -it wont just fetch one all the elements with the name li
+        -gives back an array 
+        
+        -we cant just chnage the properties of a array
+        - we have to select the array one by one 
+    
+    -getElement by class
+        -is also going to give back an array
+        -basically it will return an array with all the elements having the given class
+    
+
+
+
+    -get elemeent by id 
+        -is the the one that can dirctly select one of the ELEMENTS
+        -selects singular
+
+    querry selectors - in this case we can specify what we wan to do and do shit accordingly
+        - # for an ID
+        - . for an class
+        - simple tag name to select the whole thing
+
+        or you can a numebr of tose to be more specific
+
+        - it  
+
+MANUPATING VIA JS
+    -document.querySelector("h1").style.color = "blue";
+    -properties may difference
+    #keep in mind the camel casing
+
+    IN MOST  OF THE CASES CAPITILOZATION WILL TAKE PLACE INSTEAD OF SPACES IN THE ACTUAL CSS
+    -"" we have to specify thigns as a string in js - even if it is a number
+
+
+SEPERATION OF CONCERNS 
+    -HTML - content
+    -CSS - style - looking
+    -JS - behavior - behaving
+
+CLASS LIST
+    -you can acess the calss list then you can toggle it on or off 
+    -document.getElementById("head").classList.toggle("remove");
+    
+
+    -classList.add = adds the class to that element
+    -classList.remove =  removes the class from that element
+    -classList.toggle = if alternates the class if it is off it turns it off it is on and vise versa
+
+    this is how you only conrol the css and not effect the actuall css
+
+    -document.getElementById("one").classList.add("huge");
+
+TEXT-MANUPPLATION
+    -inner.html = you will get the whole html includig the text
+    -content.html = it only gets the text 
+
+ATTRIBUTE MANUPLATION
+    -EG: href, class itself
+    -document.getElementById("attributes").attributes;
+    -this shows all the atributes of the given element
+    -document.getElementById("attributes").getAttribute("href");
+    - this will give the value of the attribute of the given element
+
+
+ADDING OR REMOVING EVENT LISTNERS
+    -addEvenListner
+    -it 
+
+    -we can listnen to KEYDOWN - 
+
+
+OBJECT
+    -variable
+    -with number of properties
+    -these properties are variables are assoiciated with it
+
+    -var NAME = { 
+        property1 = "string";
+        property2 = number;
+        property3 = true/false;
+        ..
+        }
+
+    WE CAN ALSO MAKE A FACTORY OF THIS SHIT
+
+    -CONCSTRUCTOR FUNCTION
+    -they allow you to create multiple similar objects with the same properties and methods without duplicating the code for each object.
+    
+    -we can incorpotrate both a function and data in the object, but in case of a function we have to put the (); in case of data/properties you dont have to do nothing
+
+
+CALL BACK FUNCTION
+
+    -it basically waits for one thing to finish, then the inner function will take place
+    -
+        
+
+    
+        
+
+
+                J-QUERRY
+
+it is a JS library 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+JQUERRY 
+
+SELECTING ELEMENT IN JQUERRY
+
+-document.querryselector    => $("h1");     
+=> to select a single element we need a use multiple selectors
+-when we trying to select all of the shit   =>  $("button")
+
+
+MANUPLATING STYLE IN JQUERRY
+
+-Adding css 
+    => first add .css
+    => then inside the ("property-name", "value of the property")
+
+    -$("button").css("background-color" , "green");         this shit will change the background color of all the buttons to green
+
+    -Adding Classes 
+    $("h1").addClass("boom")  
+    => you simply just locate the element, then add ".addClass" (and then put in the name of the class you want to add)
+
+-ADDING MULTIPLE CLASSES
+    -just incluse them in the same bracket just put in a space between
+    -check for classes
+
+-TEXT MANUPLATION
+
+//adding text
+    $( ".one").text("how you doing brotheer")
+//adding innerHTML
+    $("button").html("<em> how are you today</em>")
+    $( ".one").text("how you doing brotheer")
+
+
+-ATRIBUTE MANUPLATION       -attr
+    -$("img").attr("src", "https://yahoo.com");
+
+    -second input in attr is what you can set the attribute to
+
+-ADDING AND REMOVING ELEMENT
+    ADDDING
+        - AFTER , BEFORE , APPEND, PREPEND
+
+        AFTER AND BEFORE
+        -it puts in a tag before or after the element in inside
+
+        APPEND AND PREPEND
+        -it puts a tag inside the given element 
+        -making it the first and last child of the element respectively
+    REMOVING
+        -".remove()"
+        -put in the element location before this shit
+
+
+-ADDING EVENT LISTNERS
+    -EventLstnner it is actually a very big deal to do this
+    -class 
+
+-COMMAND LINE
+    
+    -BASh-SHELL
+    -karnel
+        actuall program that interfares with the hardware 
+        core of the os
+
+    -shell
+        user interface, to interact with the karnel
+            -GUI-SHELL
+            -COMMAND LINE INTERFACE
+    
+
+BASH-SHELL - Bourne user again SHELL
+    -it is a command line interpeter for a unix system
+    -mac , linux , back-ends
+
+it is faster to use this SHIT, it gives more control
+normal GUI hides Configuration files
+
+
+COMMANDS - 
+
+1. cd - change directory
+
+
+down
+-cd code/collective/bootstrap
+
+up 
+-"cd ~" it will send you back to the root directory
+
+2. ls - list
+this gives the list of all the files in that folder or directory
+
+3.mrdir - make directory
+-this is used to make a new directory inside the current folder(directory in GUI)
+
+
+4.touch
+-it is used to create a new file indside the directory
+
+5, open
+it is used to open/run 
+
+6.rm - remove
+using this command you can  delete
+
+7. pwd
+it tells you the path to the current directory
+
+
 STACK AND HEAP METHOD - MEMORY
 
 stack - primitve
