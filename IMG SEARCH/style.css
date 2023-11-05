@@ -17,11 +17,7 @@
     align-self: center;
     margin: 30px;
 }
-.heading{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 
 
 #search-input{
@@ -39,11 +35,10 @@
     padding: 10px;
     background-color: #138065;
     border: none;
-    box-shadow: 0 0 6px rgb(0, 0, 0.2);
+    box-shadow: 0 0 2px rgb(0, 0, 0.2);
     cursor: pointer;
     color: white;
     
-
 }
 
 
@@ -51,15 +46,38 @@
 /* image section */
 
 
-.holder{
+.search-results{
 
     display: flex;
     justify-content: space-between;
     gap: 10px;
-    margin-top: 30px;
-
+    flex-wrap: wrap;
+    /* this would make the text go to flex items go to the next line once the space is exceeded, by default it is no  wrap which means that it would stay in the same in line  */
+    max-width: 1200px;
+    /* this will straight up determie the max width of the whole container not the flexitems */
+    margin: 0  auto;
+    /* it centers the element with respect its parent element, this is used to center a element in case its paret */
+    /* here first input is representing top bottom margin */
+    /* here second input is representing left right margin  */
 }
 
+.search-result{
+    margin-bottom: 60px;
+    width: 30%;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 2px rgb(0, 0, 0.2);
+    overflow: hidden;
+    /* if the items a over the size of determines, this determines what to do with it */
+    /* determines what is to be done if it exceeds the dimensions set */
+}
+
+.search-result img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* 
 .img{
    max-width: 400px;
    height: auto;
@@ -79,7 +97,7 @@
     padding: 10px;
     text-transform: capitalize;
 
-}
+} */
 
 /* show-more */
 
@@ -91,4 +109,21 @@
     cursor: pointer;
     color: white;
     border-radius: 10px;
+    display: none;
 }
+
+
+/* MEDIA QUERRIES */
+
+/* @media screen and (max-width: 768px) { 
+    .search-result{
+        width: 45%;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .search-result{
+        width: 100%;
+    }
+} */
