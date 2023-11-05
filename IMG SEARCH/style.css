@@ -1,0 +1,94 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500;600;700&family=Urbanist:wght@200&display=swap');
+
+
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Urbanist', sans-serif;    
+
+}
+
+.align{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin: 30px;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#search-input{
+    width: 60%;
+    max-width: 400px;
+    padding: 10px  20px;
+    border: none;
+    box-shadow: 0 0 6px rgb(0, 0, 0.2);
+    font-size: 18px;
+    color: #333;
+
+}
+
+#search-button{
+    padding: 10px;
+    background-color: #138065;
+    border: none;
+    box-shadow: 0 0 6px rgb(0, 0, 0.2);
+    cursor: pointer;
+    color: white;
+    
+
+}
+
+
+
+/* image section */
+
+
+.holder{
+
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 30px;
+
+}
+
+.img{
+   max-width: 400px;
+   height: auto;
+   width: 100%;
+   border-radius: 10px;
+}
+
+.search-result:hover img{
+    opacity: 0.8;
+}
+
+.search-result a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #333;
+    display: block;
+    padding: 10px;
+    text-transform: capitalize;
+
+}
+
+/* show-more */
+
+.show-more-button{
+    padding: 10px;
+    background-color: #138065;
+    border: none;
+    box-shadow: 0 0 6px rgb(0, 0, 0.2);
+    cursor: pointer;
+    color: white;
+    border-radius: 10px;
+}
