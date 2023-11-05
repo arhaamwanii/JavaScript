@@ -9,6 +9,25 @@ heap - non.primitive
     -you get a refrence instead
     -chnaeges will take place in orginal data
     
+    let user = {
+        email: "one@gmail.com",
+        upi: "buser one upi"
+    };
+
+    let user2 = user;
+
+    user2.upi = "user two upi";
+
+
+    console.log(user.upi);
+    console.log(user2.upi);
+
+        //things inside a class can be accesed via the dotnotaition
+
+    changing the values in the first shit also changed the value here,
+    as the value will be changed in both the places the refrence point is the same
+
+
 
 
 
