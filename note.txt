@@ -8,7 +8,7 @@ stack - primitve
 heap - non.primitive
     -you get a refrence instead
     -chnaeges will take place in orginal data
-
+    
 
 
 
