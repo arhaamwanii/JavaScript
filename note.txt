@@ -28,6 +28,8 @@ heap - non.primitive
     as the value will be changed in both the places the refrence point is the same
 
 
+-thats why we use a constructor and object factories to create the copies of the object
+
 
 
 
